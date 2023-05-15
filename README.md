@@ -1,7 +1,8 @@
 
 # Stock Tracker App
 
-This Django project provides a stock tracker application that displays the real-time stock price for a selected stock. The project utilizes various technologies such as Celery, Redis, Channels, multithreading, Yahoo Finance library, and web scraping.
+This Django project provides a stock tracker application that displays the real-time stock price for a selected stock. The project utilizes various technologies such as Celery, Redis, Channels, multithreading, Yahoo Finance library, and web scraping.  
+[Quick Demo ](www.wikepedia.com)
 
 
 ## Prerequisites
@@ -46,6 +47,16 @@ This Django project provides a stock tracker application that displays the real-
 
 ## Celery and Redis Configuration  
 The CELERY_BROKER_URL setting in settings.py specifies the Redis URL for the Celery broker. By default, it uses redis://localhost:6379/0.   
+![celry stockapp](https://github.com/krsatyam99/Stock-App/assets/103446420/39dc2d27-a788-438d-b216-a847d7d02279)   
+
+## Channels with Celery and Django Admin  
+
+![websocket stockapp](https://github.com/krsatyam99/Stock-App/assets/103446420/78706348-556e-4be3-8d55-39b81aa6cafc)
+## channels configuration  
+
+![channels](https://github.com/krsatyam99/Stock-App/assets/103446420/1360905b-9691-4608-84ec-74a81bfc6e72)
+
+
 ## Additional  Information  
 - The tasks.py file in the tracker app contains the Celery task that fetches the stock price using the Yahoo Finance library and web scraping techniques.  
  - The stock price is updated automatically on the tracker page using Channels, which provides real-time communication between the server and the client.    
