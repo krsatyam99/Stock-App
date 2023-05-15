@@ -18,7 +18,8 @@ This Django project provides a stock tracker application that displays the real-
 
 
 ## Set Up
- - Clone the repository:
+ - Clone the repository:  
+ - git@github.com:krsatyam99/Stock-App.git
 
 - Navigate to the project directory  
     cd stockapp
