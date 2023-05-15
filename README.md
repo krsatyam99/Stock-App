@@ -2,7 +2,7 @@
 # Stock Tracker App
 
 This Django project provides a stock tracker application that displays the real-time stock price for a selected stock. The project utilizes various technologies such as Celery, Redis, Channels, multithreading, Yahoo Finance library, and web scraping.  
-[Quick Demo ](www.wikepedia.com)
+[Quick Demo ](https://www.linkedin.com/posts/kumar-satyam-769340243_django-channels-celery-activity-7063887446798729216-fM79?utm_source=share&utm_medium=member_desktop)
 
 
 ## Prerequisites
